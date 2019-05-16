@@ -175,8 +175,20 @@ nav {
   padding: 20px 0px;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  nav {
+    display: block;
+    width: 100%;
+  }
+}
 nav .nav-left {
   width: 50%;
+}
+@media (max-width: 500px) {
+  nav .nav-left {
+    width: 100%;
+    text-align: center;
+  }
 }
 nav .nav-right {
   width: 50%;
@@ -187,6 +199,13 @@ nav .nav-right a {
   font-size: 1.5rem;
   padding: 0px 25px;
   color: black;
+}
+@media (max-width: 500px) {
+  nav .nav-right {
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+  }
 }
 .footer {
   width: 100%;
