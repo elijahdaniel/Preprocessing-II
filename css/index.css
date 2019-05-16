@@ -255,3 +255,12 @@ nav .nav-right a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  border-radius: 10px;
+  background: #17A2B8;
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 10px 0px;
+  width: 80%;
+}
