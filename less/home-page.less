@@ -3,7 +3,7 @@
   @media @mobile {
     padding: 20px;
   }
-  
+
   header {
     .border(@silver);
 
@@ -23,18 +23,35 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media @mobile {
+      display: block;
+    }
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+
+      @media @mobile {
+        width: 100%;
+        padding-top: 20px;
+      }
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
+      
+      @media @mobile {
+        width: 100%;
+      }
 
       img {
         border-radius: 10px;
+
+        @media @mobile {
+          width: 100%;
+        }
       }
     }
   }
