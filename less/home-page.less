@@ -90,12 +90,26 @@
     display: flex;
     justify-content: space-between;
 
+    @media @mobile {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
 
+      @media @mobile {
+        width: 100%;
+      }
+
       .btn{
         .button-style(@eastern-blue, 10px);
+
+        @media @mobile {
+          width: 100%;
+        }
       }
     }
   }
